@@ -1,3 +1,4 @@
+import 'dart:io';
 void main()
 {
   int i,j,temp;
@@ -17,6 +18,6 @@ void main()
   }
   for(i = 0;i<7;i++)
   {
-    print(b[i]);
+    stdout.write(b[i]);
   }
 }
